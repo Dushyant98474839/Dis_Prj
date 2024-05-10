@@ -1,0 +1,107 @@
+<%-include("./partials/header.ejs")%>
+<div class="savings">
+<div class="container  my-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary rounded-3">
+        
+        <li class="breadcrumb-item">
+          <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">Home</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          Savings
+        </li>
+      </ol>
+    </nav>
+  </div>
+  
+<br/>
+
+<div class="row align-items-md-stretch">
+    <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+        
+            <h2>Daily Savings </h2><br/><div class="progress-bar">
+                <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+              </div>
+              <br/>
+              <div class="data">
+                <div class="row">
+                  <div class="cell">Target: ₹75</div>
+                  <div class="cell">Saved: ₹25</div>
+                  <div class="cell">Progress: 33%</div>
+                  <div class="cell">Time Left: 13 hrs</div>
+                </div>
+                <br/>
+              </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+            <button class="btn btn-outline-secondary" type="button">Modify</button>
+          </div>
+      </div>
+    <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+        
+            <h2>Weekly Savings </h2><br/><div class="progress-bar">
+                <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+              </div><br/>
+              <div class="data">
+                <div class="row">
+                  <div class="cell">Target: ₹750</div>
+                  <div class="cell">Saved: ₹560</div>
+                  <div class="cell">Progress: 65%</div>
+                  <div class="cell">Time Left: 2 days</div>
+                </div>
+                <br/>
+              </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+            <button class="btn btn-outline-secondary" type="button">Modify</button>
+          </div>
+    </div>
+  </div>
+<br/>
+
+  <div class="row align-items-md-stretch">
+    <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+        
+            <h2>Monthly Savings </h2>
+            <br/>
+            <div class="progress-bar">
+                <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+              </div><br/>
+              <div class="data">
+                <div class="row">
+                  <div class="cell">Target: ₹2100</div>
+                  <div class="cell">Saved: ₹1200</div>
+                  <div class="cell">Progress: 76%</div>
+                  <div class="cell">Time Left: 4 days</div>
+                </div>
+                <br/>
+              </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+            <button class="btn btn-outline-secondary" type="button">Modify</button>
+          </div>
+      </div>
+    <div class="col-md-6">
+      <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+        
+        <h2>Annual Savings </h2><br/><div class="progress-bar">
+            <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+          </div><br/>
+          <div class="data">
+            <div class="row">
+              <div class="cell">Target: ₹25000</div>
+              <div class="cell">Saved: ₹2800</div>
+              <div class="cell">Progress: 13%</div>
+              <div class="cell">Time Left: 301 days</div>
+            </div>
+            <br/>
+          </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+        <button class="btn btn-outline-secondary" type="button">Modify</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+<br/>
+<%-include("./partials/footer.ejs")%>
+</div>
+</body>
+</html>

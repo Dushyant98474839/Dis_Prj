@@ -1,0 +1,82 @@
+.navcol{
+    background-color: #f95738
+    
+}
+
+.containernavcol{
+    width:1000px;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+.navmain{
+    background-color: #0D3B66;
+
+    z-index: 12;
+}
+
+.idea{
+    background-color: #0D3B66 !important;
+    color: white !important;
+}
+.logo{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.nav-link{
+    color: white;
+    font-size: large;
+    
+}
+input[type="Search"] {
+    background: transparent;
+   
+}
+.search{
+    border-color: white;
+}
+.spacing{
+    height: 100px;
+    color:rgb(226, 226, 219);
+    font-size: xx-small;
+}
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+::placeholder { 
+    color:   white !important;
+ }
+.bi{
+    fill: white;
+}
+.btn{
+    background: transparent;
+    border-color: white;
+}
+.cards button{
+    border-color: black !important;
+}
+body{
+background-image: url('backimage.jpg') !important;
+}
+.width{
+    width: 77.3%;
+    margin-left: 194px;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 50px;
+    background-image: url('backimage.jpg') !important;
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+html::-webkit-scrollbar {
+    display: none;
+  }
+
+  .breadcrumb {
+    border: 1px solid #0D3B66; /* Add blue border */
+    padding: 10px; /* Add padding for better spacing */
+}

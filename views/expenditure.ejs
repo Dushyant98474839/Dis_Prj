@@ -1,0 +1,108 @@
+<%-include("./partials/header.ejs")%>
+
+<div class="expenditure">
+    <div class="container  my-5">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary rounded-3">
+            
+            <li class="breadcrumb-item">
+              <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Expenditure
+            </li>
+          </ol>
+        </nav>
+      </div>
+      
+    <br/>
+    
+    <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+            <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+            
+                <h2>Daily Expenditure </h2><br/><div class="progress-bar">
+                    <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+                  </div>
+                  <br/>
+                  <div class="data">
+                    <div class="row">
+                      <div class="cell">Limit: ₹75</div>
+                      <div class="cell">Spent: ₹25</div>
+                      <div class="cell">Percentage: 33%</div>
+                      <div class="cell">Duration: 13 hrs</div>
+                    </div>
+                    <br/>
+                  </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+                <button class="btn btn-outline-secondary" type="button">Modify</button>
+              </div>
+          </div>
+        <div class="col-md-6">
+            <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+            
+                <h2>Weekly Expenditure </h2><br/><div class="progress-bar">
+                    <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+                  </div><br/>
+                  <div class="data">
+                    <div class="row">
+                      <div class="cell">Limit: ₹750</div>
+                      <div class="cell">Spent: ₹560</div>
+                      <div class="cell">Percentage: 65%</div>
+                      <div class="cell">Duration: 2 days</div>
+                    </div>
+                    <br/>
+                  </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+                <button class="btn btn-outline-secondary" type="button">Modify</button>
+              </div>
+        </div>
+      </div>
+    <br/>
+    
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+            <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+            
+                <h2>Monthly Expenditure </h2>
+                <br/>
+                <div class="progress-bar">
+                    <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+                  </div><br/>
+                  <div class="data">
+                    <div class="row">
+                      <div class="cell">Limit: ₹2100</div>
+                      <div class="cell">Spent: ₹1200</div>
+                      <div class="cell">Percentage: 76%</div>
+                      <div class="cell">Duration: 4 days</div>
+                    </div>
+                    <br/>
+                  </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+                <button class="btn btn-outline-secondary" type="button">Modify</button>
+              </div>
+          </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-body-tertiary border text-center rounded-3">
+            
+            <h2>Annual Expenditure </h2><br/><div class="progress-bar">
+                <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+              </div><br/>
+              <div class="data">
+                <div class="row">
+                  <div class="cell">Limit: ₹25000</div>
+                  <div class="cell">Spent: ₹2800</div>
+                  <div class="cell">Percentage: 13%</div>
+                  <div class="cell">Duration: 301 days</div>
+                </div>
+                <br/>
+              </div><button class="btn btn-outline-secondary" type="button">Reset</button>
+            <button class="btn btn-outline-secondary" type="button">Modify</button>
+          </div>
+        </div>
+      </div>
+    
+    
+    </div>
+    <br/>
+    <%-include("./partials/footer.ejs")%>
+    </div>
+    </body>
+    </html>

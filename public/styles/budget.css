@@ -1,0 +1,26 @@
+
+.budget button{
+border-color: white !important;
+background-color: #F95738;
+color: white;
+}
+
+.piechart {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        pink 70deg,
+        lightblue 70deg 200deg,
+        orange 200deg 300deg,
+        green 300deg
+    );
+}
+
+.budget table{
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.202), -25px 0 20px -20px rgba(0, 0, 0, 0.200);
+
+}
+.budget.piecharttable{
+    width: 50%;
+}
